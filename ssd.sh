@@ -12,7 +12,7 @@ Echo_Failed_Code(){
 Echo_Date_Out(){
     echo "[$(date "+%Y-%m-%d %H:%M:%S")] $@"
 }
-# 检查用户名
+# 检查用户名89f2135ce3f3aa546a844a39816f9f6e8c7ae0b8c25c6d69c2b0b600aaa636
 User_Login_Info=`whoami`
 if [ ! "${User_Login_Info}" = 'root' ];then
     Echo_Date_Out "当前用户为 ${User_Login_Info} 非 root 用户!"
